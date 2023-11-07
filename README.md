@@ -4,7 +4,7 @@ Bot Discord CTF adalah bot yang membantu mendapatkan informasi tentang event CTF
 
 ## Perintah yang Tersedia
 
-Bot ini memiliki 3 perintah:
+Bot ini memiliki 4 perintah:
 
 ### 1. `/ctf`
 
@@ -36,6 +36,16 @@ Perintah ini menghitung berapa lama lagi hingga event dimulai. Cara menggunakan 
 
 - `[event_time]` adalah waktu saat event dimulai.
 
+### 3. `/ctftips`
+
+Perintah memberikan tips dalam mengerjakan kategori ctf:
+
+```
+/countdown [category]
+```
+
+- `[category]` adalah nama kategori ctf.
+
 ## Contoh Penggunaan
 
 Perintah `/ctf`
@@ -54,4 +64,9 @@ Perintah `/countdown`
 
 ```
 /countdown Fri, 10 Nov. 2023, 10:00 UTC
+```
+Perintah `/ctftips`
+
+```
+/ctftips category: stenography
 ```
