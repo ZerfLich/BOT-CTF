@@ -1,4 +1,5 @@
 const { Client, GatewayIntentBits } = require("discord.js");
+const convertTimeCommand = require("./convertTimeCommand.js");
 const { Routes } = require("discord-api-types/v9");
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
@@ -112,6 +113,8 @@ client.on("interactionCreate", async (interaction) => {
     } else {
       interaction.reply("Sorry, Aku gak bisa dapat info dari event CTF itu.");
     }
+  } else if (commandName === "converttime") {
+    convertTimeCommand.execute(interaction);
   }
 });
 
