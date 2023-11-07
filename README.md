@@ -34,7 +34,7 @@ Perintah `/ctf`
 /ctf 12345
 ```
 
-Perintah `/converttime`:
+Perintah `/converttime`
 
 ```
 /converttime Fri, 10 Nov. 2023, 10:00 UTC
