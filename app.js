@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits, ActivityType } = require("discord.js");
-const convertTimeCommand = require("./convertTimeCommand.js");
-const countdownCommand = require("./countdownCommand.js");
+const convertTimeCommand = require("./command/convertTimeCommand.jss");
+const countdownCommand = require("./command/countdownCommand.js");
 const { Routes } = require("discord-api-types/v9");
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
