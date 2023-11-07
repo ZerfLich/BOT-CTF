@@ -116,8 +116,7 @@ client.on("interactionCreate", async (interaction) => {
 });
 
 (async () => {
-  const token =
-    "MTA4NjYwMjE4NDY2MzI0NDk0Mg.GIX0kM._oD5vkcyrKGjuuvjJ8PovgpYxWkg5YQvXc5pA4";
+  const token = "YOUR_TOKEN";
   await client.login(token);
   await client.rest.put(Routes.applicationCommands(client.user.id), {
     body: commands,
