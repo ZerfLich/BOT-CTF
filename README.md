@@ -4,7 +4,7 @@ Bot Discord CTF adalah bot yang membantu mendapatkan informasi tentang event CTF
 
 ## Perintah yang Tersedia
 
-Bot ini memiliki 2 perintah
+Bot ini memiliki 3 perintah:
 
 ### 1. `/ctf`
 
