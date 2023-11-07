@@ -1,11 +1,16 @@
-const { Client, GatewayIntentBits } = require("discord.js");
+const { Client, GatewayIntentBits, ActivityType } = require("discord.js");
 const convertTimeCommand = require("./convertTimeCommand.js");
 const { Routes } = require("discord-api-types/v9");
 const fetch = require("node-fetch");
 const cheerio = require("cheerio");
 
 const client = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.GuildMembers,
+    GatewayIntentBits.MessageContent,
+  ],
 });
 
 const ctfInfo = {
@@ -60,6 +65,12 @@ const getCTFTimeEventInfo = async (id) => {
 
 client.on("ready", () => {
   console.log(`Logged in as ${client.user.tag}`);
+
+  client.user.setActivity({
+    name: "RKS",
+    type: ActivityType.Watching,
+    status: "idle",
+  });
 });
 
 client.on("interactionCreate", async (interaction) => {
