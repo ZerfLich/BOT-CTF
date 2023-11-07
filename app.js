@@ -21,7 +21,7 @@ const ctfInfo = {
   ],
 };
 
-const commands = [ctfInfo];
+const commands = [ctfInfo, convertTimeCommand.data];
 
 const getCTFTimeEventInfo = async (id) => {
   const url = `https://ctftime.org/event/${id}`;
@@ -124,5 +124,5 @@ client.on("interactionCreate", async (interaction) => {
   await client.rest.put(Routes.applicationCommands(client.user.id), {
     body: commands,
   });
-  console.log("DONE | Aplikasi/Bot berjalan.");
+  console.log("DONE | Bot berjalan.");
 })();
