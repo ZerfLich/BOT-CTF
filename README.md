@@ -57,13 +57,13 @@ Perintah `/ctf`
 Perintah `/converttime`
 
 ```
-/converttime Fri, 10 Nov. 2023, 10:00 UTC
+/converttime time: Sat, 11 Nov. 2023, 05:00 UTC
 ```
 
 Perintah `/countdown`
 
 ```
-/countdown Fri, 10 Nov. 2023, 10:00 UTC
+/countdown event_time: Friday, 10 Nov. 2023, 15:00
 ```
 Perintah `/ctftips`
 
