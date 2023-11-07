@@ -4,7 +4,7 @@ Bot Discord CTF adalah bot yang membantu mendapatkan informasi tentang event CTF
 
 ## Perintah yang Tersedia
 
-Bot ini memiliki 2 perintah
+Bot ini memiliki 3 perintah:
 
 ### 1. `/ctf`
 
@@ -26,6 +26,16 @@ Karna [ctftime.org](https://ctftime.org/) menggunakan format waktu UTC. Perintah
 
 - `[time]` adalah waktu yang ingin dikonversi ke zona waktu GMT+7 dalam format UTC (contoh: "Fri, 10 Nov. 2023, 10:00 UTC").
 
+### 3. `/countdown`
+
+Perintah ini menghitung berapa lama lagi hingga event dimulai. Cara menggunakan perintah ini:
+
+```
+/countdown [event_time]
+```
+
+- `[event_time]` adalah waktu saat event dimulai.
+
 ## Contoh Penggunaan
 
 Perintah `/ctf`
@@ -38,4 +48,10 @@ Perintah `/converttime`
 
 ```
 /converttime Fri, 10 Nov. 2023, 10:00 UTC
+```
+
+Perintah `/countdown`
+
+```
+/countdown Fri, 10 Nov. 2023, 10:00 UTC
 ```
