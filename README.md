@@ -36,7 +36,7 @@ Perintah ini menghitung berapa lama lagi hingga event dimulai. Cara menggunakan 
 
 - `[event_time]` adalah waktu saat event dimulai.
 
-### 3. `/ctftips`
+### 4. `/ctftips`
 
 Perintah memberikan tips dalam mengerjakan kategori ctf:
 
