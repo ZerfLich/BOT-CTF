@@ -1,4 +1,4 @@
-# Cryptography
+# Cipher
 
 - Analyze the cipher type (e.g., Caesar, Vigenère, etc.)
 - Try common decryption techniques (e.g., frequency analysis)
