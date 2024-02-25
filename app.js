@@ -140,11 +140,4 @@ client.on("interactionCreate", async (interaction) => {
   }
 });
 
-(async () => {
-  const token = "YOUR_TOKEN";
-  await client.login(token);
-  await client.rest.put(Routes.applicationCommands(client.user.id), {
-    body: commands,
-  });
-  console.log("DONE | Bot berjalan.");
-})();
+client.login(process.env.TOKEN); //login bot using token
