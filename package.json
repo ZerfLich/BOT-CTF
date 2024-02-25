@@ -1,5 +1,14 @@
 {
+  "name": "BOT-CTF",
+  "version": "1.0.0",
+  "description": "A Discord bot for CTF",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+},
+  "author": "";
   "dependencies": {
     "moment-timezone": "^0.5.43"
+    "discord.js": "^12.5.3"
   }
 }
